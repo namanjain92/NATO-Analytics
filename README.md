@@ -40,7 +40,7 @@ NATO official defence expenditure data (2014-2024), published annually at nato.i
 
 # Tools and Technologies
 
-Python (pandas) for data cleaning and analysis
-Claude API (Anthropic) for AI-generated narrative commentary
-Power BI for interactive dashboard
-python-dotenv for secure API key management
+1. Python (pandas) for data cleaning and analysis
+2. Claude API (Anthropic) for AI-generated narrative commentary
+3. Power BI for interactive dashboard
+4. python-dotenv for secure API key management
