@@ -1,7 +1,46 @@
 # NATO-Analytics
-Defence Expenditures of NATO members as a percent of GDP
-This project presents an interactive analysis of defence expenditures among NATO member countries.
-The dashboard visualizes contributions as a share of GDP on an annual basis.
-For over seven decades, the North Atlantic Treaty Organization (NATO) has been a cornerstone of international peace and stability.
-In an increasingly complex global security environment, shared defence investments are critical to maintaining readiness, interoperability, and collective resilience.
-By examining expenditure patterns, this dashboard highlights how nations balance fiscal priorities with the collective responsibility of maintaining security within the alliance.
+
+AI-Powered Defence Expenditure Intelligence
+An end-to-end data pipeline that analyses NATO member defence expenditures as a percentage of GDP and uses the Claude AI API to generate contextual, expert-level country briefs, turning raw spending data into an intelligence-style report.
+
+# Background
+
+For over seven decades, the North Atlantic Treaty Organization (NATO) has been a cornerstone of international peace and stability. In an increasingly complex global security environment, shared defence investments are critical to maintaining readiness, interoperability, and collective resilience. The Alliance's 2% of GDP benchmark serves as a key indicator of each member's commitment to collective security.
+This project goes beyond visualising the numbers. It uses AI to explain what those numbers mean geopolitically, and why they matter for the future of the Alliance.
+
+# What This Project Does
+
+1. Ingests and cleans NATO defence expenditure data (2014-2024) across 32 member countries
+2. Analyses year-over-year changes, annual rankings, 2% target compliance, and biggest movers since 2014
+3. Integrates the Claude AI API to auto-generate a contextual 3-4 sentence brief for every member country, explaining their spending trajectory, geopolitical context, and Alliance commitment
+4. Outputs a structured CSV of AI-generated country commentaries ready for reporting
+
+# How Claude AI Adds Value
+
+Traditional data analysis produces numbers. Claude transforms those numbers into insight.
+For each country, the pipeline feeds structured spending data into Claude with a policy-focused system prompt, and receives a professionally written brief in return, something no pandas script can produce on its own. The result reads like analysis from a think tank or defence policy organisation.
+
+# Example output for Poland:
+
+Poland stands as the Alliance's foremost contributor in terms of defence spending as a share of GDP, claiming the top position among all 32 member nations at an exceptional 3.79% in 2024. The remarkable 1.92 percentage point increase since 2014 reflects a sustained and deliberate commitment to national and collective defence, driven in large part by Poland's acute awareness of the evolving security landscape on NATO's eastern flank. By nearly doubling its relative investment over the past decade and exceeding the 2% guideline by a significant margin, Poland sends an unambiguous signal of resolve to allies and adversaries alike.
+
+This demonstrates prompt engineering - the system prompt was carefully designed to produce a consistent tone that is professional, informed, and appreciative of member nations' collective security commitments.
+
+# Key Findings (2024)
+
+Poland ranks #1 at 3.79% of GDP, up from 1.86% in 2014
+19 of 32 members now meet the 2% target, a significant shift driven largely by Russia's invasion of Ukraine in 2022
+Latvia, Lithuania, and Estonia have demonstrated the most remarkable growth in defence investment since 2014, reflecting their steadfast commitment to collective security and their strategic position on NATO's eastern flank
+The United States remains the largest absolute defence spender and well above the 2% target at 3.21%, though its share of GDP has moderated as the US economy has grown
+Belgium and Luxembourg remain below the 2% threshold, though both show consistent upward trends
+
+# Data Source
+
+NATO official defence expenditure data (2014-2024), published annually at nato.int. Data is updated each year, allowing this pipeline to be rerun annually with minimal changes.
+
+# Tools and Technologies
+
+Python (pandas) for data cleaning and analysis
+Claude API (Anthropic) for AI-generated narrative commentary
+Power BI for interactive dashboard
+python-dotenv for secure API key management
