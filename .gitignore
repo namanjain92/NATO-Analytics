@@ -1,0 +1,6 @@
+.env
+.idea/
+__pycache__/
+*.pyc
+data/defence_per_long.csv
+data/defence_analysis.csv
