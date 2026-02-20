@@ -22,7 +22,7 @@ For each country, the pipeline feeds structured spending data into Claude with a
 
 # Example output for Poland:
 
-Poland stands as the Alliance's foremost contributor in terms of defence spending as a share of GDP, claiming the top position among all 32 member nations at an exceptional 3.79% in 2024. The remarkable 1.92 percentage point increase since 2014 reflects a sustained and deliberate commitment to national and collective defence, driven in large part by Poland's acute awareness of the evolving security landscape on NATO's eastern flank. By nearly doubling its relative investment over the past decade and exceeding the 2% guideline by a significant margin, Poland sends an unambiguous signal of resolve to allies and adversaries alike.
+Poland stands as the Alliance's foremost contributor in terms of defence spending as a share of GDP, claiming the top position among all 32 member nations at an exceptional 3.79% in 2024. The remarkable 1.92 percentage point increase since 2014 reflects a sustained and deliberate commitment to national and collective defence, driven in large part by Poland's acute awareness of the evolving security landscape on NATO's eastern flank. By nearly doubling its relative investment over the past decade and exceeding the 2% guideline by a significant margin, Poland sends an unambiguous signal of resolve to allies.
 
 This demonstrates prompt engineering - the system prompt was carefully designed to produce a consistent tone that is professional, informed, and appreciative of member nations' collective security commitments.
 
