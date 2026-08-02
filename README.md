@@ -30,7 +30,7 @@ This demonstrates prompt engineering - the system prompt was carefully designed 
 
 1. Poland ranks #1 at 3.79% of GDP, up from 1.86% in 2014, illustrating a remarkable growth in defence investment and highlighting its role as one of the Alliance's most committed and resolute contributors to collective security. 
 2. 19 of 32 members now meet the 2% target.
-3. Latvia, Lithuania, and Estonia have demonstrated the most remarkable growth in defence investment since 2014, reflecting their steadfast commitment to collective security and their strategic position on NATO's eastern flank.
+3. Latvia, Lithuania, and Estonia have demonstrated the most remarkable growth in defence investment since 2014, reflecting their steadfast commitment to collective security.
 
 # Data Source
 
